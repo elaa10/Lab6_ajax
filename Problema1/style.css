@@ -1,0 +1,48 @@
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+fieldset {
+    width: fit-content;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid #888;
+    border-radius: 8px;
+    background-color: #eef3f8;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+}
+
+
+.arrival-item {
+    margin-bottom: 6px;
+    padding-left: 10px;
+}
+
+#arrivalStations {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.arrival-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.arrival-list li {
+    margin-bottom: 6px;
+    font-size: 1rem;
+}
